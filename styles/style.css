@@ -1,3 +1,4 @@
+/* Colors */
 .FooterBackgroundPromoBarColor {
     color: #1E2C20;
 }
@@ -10,6 +11,10 @@
     color: #292828;
 }
 
+.CookwareBuiltLoLastBg{
+   background-color: #181818CC; 
+}
+
 .ActiveHoverColorNavSale {
     color: #982A1C;
 }
@@ -19,7 +24,12 @@
 }
 
 .LogoBackgroundColor {
-    color: #D76151;
+    background-color: #D76151;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5%;
 }
 
 .ColorOptionforCard1 {
@@ -50,6 +60,75 @@
     color: #EDEDED;
 }
 
-.SecondaryTextFooterPromoBannerCardColor {
-    color: #FFFFFF;    
+.White {
+    color: #FFFFFF;
+}
+
+/* Font Sizing */
+
+h1 {
+    font-family: Roboto, inter;
+    font-weight: Bold 60 px;
+}
+
+h2 {
+    font-family: Roboto, inter;
+    font-weight: Semibold 36 px;
+}
+
+h3 {
+    font-family: Roboto, inter;
+    font-weight: Bold 40 px;
+}
+
+h4 {
+    font-family: Roboto, inter;
+    font-weight: Regular 48 px;
+}
+
+h5 {
+    font-family: Roboto, inter;
+    font-weight: Semibold 20 px;
+}
+
+Body {
+    font-family: Roboto, inter, times;
+    font-weight: Regular 24 px;
+}
+
+/* Body {
+    font-family: Roboto, inter;
+    font-weight: Regular 20 px;
+}
+
+Body {
+    font-family: Roboto, inter;
+    font-weight: Regular 18 px;
+}
+
+Body {
+    font-family: Roboto, inter;
+    font-weight: Semibold 18 px;
+} */
+
+
+
+/*  */
+nav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+/* .link-underline-opacity-100-hover {
+    color: #B73A2A;
+} */
+
+.HeroImageBG {
+    background-image: url(../assets/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+    /* width: 100%; */
 }
