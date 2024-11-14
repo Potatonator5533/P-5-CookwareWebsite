@@ -1,6 +1,9 @@
 /* Colors */
 .FooterBackgroundPromoBarColor {
-    color: #1E2C20;
+    background-color: #1E2C20;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .StrokeforCardColor {
@@ -11,8 +14,8 @@
     color: #292828;
 }
 
-.CookwareBuiltLoLastBg{
-   background-color: #181818CC; 
+.CookwareBuiltLoLastBg {
+    background-color: #181818CC;
 }
 
 .ActiveHoverColorNavSale {
@@ -82,8 +85,9 @@ h3 {
 }
 
 h4 {
-    font-family: Roboto, inter;
-    font-weight: Regular 48 px;
+    font-family: Roboto, inter, times;
+    font-weight: Regular;
+    font-size: 48px;
 }
 
 h5 {
@@ -92,8 +96,10 @@ h5 {
 }
 
 Body {
+    background-color: #EDEDED;
     font-family: Roboto, inter, times;
-    font-weight: Regular 24 px;
+    font-weight: Regular;
+    /* font-size: 24 px; */
 }
 
 /* Body {
@@ -123,12 +129,39 @@ nav {
     color: #B73A2A;
 } */
 
-.HeroImageBG {
-    background-image: url(../assets/hero.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 50%;
-    /* width: 100%; */
+@media (min-width: 992px) {
+    .HeroImageBG {
+        background-image: url(../assets/hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 1067px;
+        /* width: 100%; */
+    }
+}
+
+@media (max-width: 991px) {
+    .HeroImageBG {
+        background-image: url(../assets/hero.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 500px;
+        /* width: 100%; */
+    }
+}
+
+.HeroText {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
 }
