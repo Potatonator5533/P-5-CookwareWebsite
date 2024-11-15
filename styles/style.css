@@ -86,7 +86,7 @@ h2 {
     font-weight: 600;
     font-size: 36px;
     padding-top: 1.5rem;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 }
 
 h3 {
@@ -179,7 +179,7 @@ nav {
 } */
 
 .StartCookingCard {
-    border-radius: 1.5rem;
+    border-radius: 1.2rem;
     height: 100%;
 }
 
@@ -196,4 +196,55 @@ nav {
     font-family: Roboto, inter;
     font-weight: normal;
     font-size: 18px;
+}
+
+.PanColorSelector1 {
+    border-radius: 100%;
+    background-color: #EA2D2C;
+    width: 30px;
+    height: 30px;
+}
+
+.PanColorSelector2 {
+    border-radius: 100%;
+    background-color: #FB5108;
+    width: 30px;
+    height: 30px;
+}
+
+.PanColorSelector3 {
+    border-radius: 100%;
+    background-color: #D29D12;
+    width: 30px;
+    height: 30px;
+}
+
+.PanColorSelector4 {
+    border-radius: 100%;
+    background-color: #353535;
+    width: 30px;
+    height: 30px;
+}
+
+.CardBorder {
+    border-radius: 10px;
+    border: 1px solid #000000;
+    padding: 24px;
+}
+
+.RoundedImg {
+    border-radius: 10px;
+}
+
+button {
+    width: 159px;
+    height: 42px;
+    border: 1px solid #292828;
+    font-size: 16px;
+    color: #292828;
+}
+
+button:hover {
+    background-color: #1E2C20;
+    color: #FFFFFF;
 }
