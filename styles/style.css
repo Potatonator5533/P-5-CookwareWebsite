@@ -90,8 +90,10 @@ h2 {
 }
 
 h3 {
+    color: #FFFFFF;
     font-family: Roboto, inter;
-    font-weight: Bold 40 px;
+    font-weight: Bold;
+    font-size: 40px;
 }
 
 h4 {
@@ -251,6 +253,66 @@ button#SHOPNOW:hover {
     color: #FFFFFF;
 }
 
+/* Reviews */
+.ReviewImg1 {
+    background-image: url(../assets//Reviews1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 664px;
+    border-radius: 10px;
+    margin-bottom: 6rem;
+}
+
+.ReviewImg2 {
+    background-image: url(../assets//Reviews2.jpg);
+    background-position: start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 664px;
+    border-radius: 10px;
+    margin-bottom: 6rem;
+}
+
+.ReviewImg3 {
+    background-image: url(../assets//Reviews3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 664px;
+    border-radius: 10px;
+    margin-bottom: 6rem;
+}
+
+.TextBg {
+    background: #12121299;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    width: Hug (426px)px;
+    height: Fixed (345px)px;
+    padding: 73px 28px 73px 28px;
+    margin: 35% 8% 0%;
+    gap: 16px;
+    border-radius: 10px;
+}
+
+.ReviewsText1 {
+    color: #FFFFFF;
+    font-family: Roboto, inter;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.ReviewsText2 {
+    color: #FFFFFF;
+    font-family: Roboto, inter;
+    font-weight: normal;
+    font-size: 18px;
+}
+
 /* Footer Grid */
 
 .FooterBG {
@@ -348,6 +410,7 @@ button#SUBSCRIBE {
         grid-column: 4 / span 5;
     }
 }
+
 /* Mobile */
 @media (max-width: 884px) {
     input {
