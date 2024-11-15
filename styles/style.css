@@ -101,8 +101,10 @@ h4 {
 }
 
 h5 {
+    color: #FFFFFF;
     font-family: Roboto, inter;
-    font-weight: Semibold 20 px;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 
@@ -236,7 +238,7 @@ nav {
     border-radius: 10px;
 }
 
-button {
+button#SHOPNOW {
     width: 159px;
     height: 42px;
     border: 1px solid #292828;
@@ -244,7 +246,64 @@ button {
     color: #292828;
 }
 
-button:hover {
+button#SHOPNOW:hover {
     background-color: #1E2C20;
     color: #FFFFFF;
+}
+
+/* Footer Grid */
+
+.FooterBG {
+    background-color: #1E2C20;
+    padding-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.FooterText {
+    color: #FFFFFF;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.NewsletterText {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+input {
+    font-weight: normal;
+    font-size: 12px;
+    height: 42px;
+    width: 190px;
+}
+
+button#SUBSCRIBE {
+    width: 190px;
+    height: 42px;
+    border: 1px solid #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #1E2C20;
+}
+
+/* button#SUBSCRIBE:hover {
+    background-color: #1E2C20;
+    color: #FFFFFF;
+} */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+
+.grid-col-span-2-end {
+    grid-column: 6 / span 2;
+}
+
+@media (max-width: 800px) {
+    .grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
 }
