@@ -70,13 +70,23 @@
 /* Font Sizing */
 
 h1 {
+    color: #292828;
     font-family: Roboto, inter;
-    font-weight: Bold 60 px;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
 }
 
 h2 {
+    color: #292828;
     font-family: Roboto, inter;
-    font-weight: Semibold 36 px;
+    font-weight: 600;
+    font-size: 36px;
+    padding-top: 1.5rem;
+    margin-bottom: 0;
 }
 
 h3 {
@@ -85,8 +95,8 @@ h3 {
 }
 
 h4 {
-    font-family: Roboto, inter, times;
-    font-weight: Regular;
+    font-family: Roboto, inter;
+    font-weight: normal;
     font-size: 48px;
 }
 
@@ -95,34 +105,23 @@ h5 {
     font-weight: Semibold 20 px;
 }
 
+
 Body {
     background-color: #EDEDED;
-    font-family: Roboto, inter, times;
-    font-weight: Regular;
-    /* font-size: 24 px; */
-}
-
-/* Body {
     font-family: Roboto, inter;
-    font-weight: Regular 20 px;
+    font-weight: normal;
+    font-size: 24px;
 }
-
-Body {
-    font-family: Roboto, inter;
-    font-weight: Regular 18 px;
-}
-
-Body {
-    font-family: Roboto, inter;
-    font-weight: Semibold 18 px;
-} */
-
-
 
 /*  */
 nav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+}
+
+.MiddleBodyCentering {
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 /* .link-underline-opacity-100-hover {
@@ -156,12 +155,45 @@ nav {
 .HeroText {
     text-align: center;
     position: absolute;
-    top: 70%;
-    left: 27%;
+    top: 75%;
+    left: 23.5%;
     transform: translate(-50%, -50%);
     color: white;
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left: 1%;
     padding-right: 1%;
+}
+
+.PromoBarText {
+    font-family: Roboto, inter;
+    font-weight: normal;
+    font-size: 24 px;
+}
+
+/* .SectionHeaders {
+    color: #292828;
+    font-family: Roboto, inter;
+    font-weight: bold;
+    font-size: 64 px;
+} */
+
+.StartCookingCard {
+    border-radius: 1.5rem;
+    height: 100%;
+}
+
+.StartCookingText {
+    font-family: Roboto, inter;
+    font-weight: 600;
+    font-size: 36px;
+
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+.DescriptionText {
+    font-family: Roboto, inter;
+    font-weight: normal;
+    font-size: 18px;
 }
