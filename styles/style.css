@@ -262,6 +262,7 @@ button#SHOPNOW:hover {
     position: relative;
     height: 664px;
     border-radius: 10px;
+    margin-left: -2rem;
     margin-bottom: 6rem;
 }
 
@@ -284,7 +285,18 @@ button#SHOPNOW:hover {
     position: relative;
     height: 664px;
     border-radius: 10px;
+    margin-right: -2rem;
     margin-bottom: 6rem;
+}
+
+@media (max-width: 992px) {
+    .ReviewImg1 {
+        margin-left: 0;
+    }
+
+    .ReviewImg3 {
+        margin-right: 0;
+    }
 }
 
 .TextBg {
